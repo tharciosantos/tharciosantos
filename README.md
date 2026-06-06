@@ -75,12 +75,6 @@ Vitest · Testing Library · Cypress · Git · GitHub Actions · Vercel
 
 ---
 
-## Aprendendo agora
-
-Docker · Testes de integração com Vitest · Zod · Clean Architecture
-
----
-
 <p align="center">
   <strong>Aberto a oportunidades como Desenvolvedor Full Stack Júnior ou Estagiário em Desenvolvimento.</strong><br/><br/>
   <a href="https://linkedin.com/in/tharcio-santos-dev">LinkedIn</a> &nbsp;·&nbsp;
