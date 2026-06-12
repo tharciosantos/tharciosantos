@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/tharcio-santos-dev">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:tharciosantos09@gmail.com">tharciosantos09@gmail.com</a> &nbsp;·&nbsp;
-  📍 Minas Gerais, Brasil
+  📍 Caeté, MG (Região Metropolitana de Belo Horizonte)
 </p>
 
 ---
@@ -28,8 +28,8 @@ Estou em busca da minha primeira oportunidade profissional em desenvolvimento e 
 ---
 
 **[HelpFlow](https://helpflow.vercel.app/login)** — Sistema de help desk full stack
-Sistema para gerenciamento de chamados, com autenticação, criação e acompanhamento de tickets, status, prioridade e persistência em banco relacional.
-`Next.js · TypeScript · Prisma · Supabase · NextAuth` · [ver código](https://github.com/tharciosantos/helpflow)
+Plataforma robusta para gerenciamento de chamados com arquitetura full stack. Inclui autenticação, controle de acesso por papéis (RBAC), gestão de tickets (status/prioridade) e cobertura de testes E2E, com persistência em banco relacional.
+`Next.js · TypeScript · Prisma · Supabase · NextAuth · Cypress` · [ver código](https://github.com/tharciosantos/helpflow)
 
 ---
 
@@ -62,7 +62,7 @@ Dashboard responsivo com dados atualizados de criptomoedas via CoinGecko API, ut
 
 ## Formação e background
 
-Curso **Análise e Desenvolvimento de Sistemas** na Anhanguera.
+Graduação em **Análise e Desenvolvimento de Sistemas** pelo Centro Universitário Anhanguera (Previsão de conclusão: 2027).
 
 Antes de migrar para desenvolvimento, trabalhei em funções operacionais e administrativas. Essa experiência reforçou hábitos que aplico no código: organizar informações, investigar problemas antes de agir, documentar processos e comunicar com clareza.
 
@@ -70,8 +70,9 @@ Antes de migrar para desenvolvimento, trabalhei em funções operacionais e admi
 
 ## Stack
 
-React · Next.js · TypeScript · Tailwind CSS · Node.js · Prisma · Supabase · PostgreSQL
-Vitest · Testing Library · Cypress · Git · GitHub Actions · Vercel
+* **Frontend:** React, Next.js, Tailwind CSS
+* **Backend & Dados:** Node.js, TypeScript, Prisma, Supabase, PostgreSQL
+* **Testes & Ferramentas:** Cypress, Vitest, Testing Library, Git, GitHub Actions, Vercel
 
 ---
 
