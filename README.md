@@ -6,7 +6,7 @@
 
 <p align="center">
   Desenvolvedor Full Stack Júnior em busca da primeira oportunidade profissional.<br/>
-  Construo aplicações completas com React, Next.js e Node.js — com código público, deploy em produção e decisões técnicas documentadas.
+  Construo aplicações completas com React, Next.js e Node.js — com código público, boas práticas, deploys em produção e decisões técnicas documentadas.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Estou em busca da minha primeira oportunidade profissional em desenvolvimento e 
 ---
 
 **[HelpFlow](https://helpflow.vercel.app/login)** — Sistema de help desk full stack
-Plataforma robusta para gerenciamento de chamados com arquitetura full stack. Inclui autenticação, controle de acesso por papéis (RBAC), gestão de tickets (status/prioridade) e cobertura de testes E2E, com persistência em banco relacional.
+Plataforma robusta para gerenciamento de chamados com arquitetura full stack. Inclui autenticação, controle de acesso por papéis (RBAC), gestão de tickets por status e prioridade, persistência em banco relacional e cobertura de testes E2E.
 `Next.js · TypeScript · Prisma · Supabase · NextAuth · Cypress` · [ver código](https://github.com/tharciosantos/helpflow)
 
 ---
@@ -48,6 +48,14 @@ Aplicação instalável para organização de compras, com funcionamento sem int
 **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)** — Dashboard com SSR
 Dashboard responsivo com dados atualizados de criptomoedas via CoinGecko API, utilizando Server-Side Rendering com Next.js.
 `Next.js · TypeScript · CoinGecko API` · [ver código](https://github.com/tharciosantos/crypto-dashboard)
+
+---
+
+## Projeto em desenvolvimento
+
+**[ManutFlow](https://github.com/tharciosantos/manutflow)** — Sistema de manutenção e ordens de serviço
+Aplicação full stack em desenvolvimento para controle de equipamentos e ordens de manutenção. Inclui cadastro de equipamentos, criação de ordens de serviço, alteração de status, filtros, busca textual, dashboard com indicadores reais e integração com Supabase/PostgreSQL.
+`Next.js · TypeScript · Tailwind CSS · Supabase · PostgreSQL` · [ver código](https://github.com/tharciosantos/manutflow)
 
 ---
 
