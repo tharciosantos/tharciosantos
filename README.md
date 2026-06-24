@@ -1,7 +1,7 @@
 <h1 align="center">Tharcio Santos</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Disponível%20para%20oportunidade-Júnior%20%7C%20Estágio-4f46e5?style=for-the-badge" alt="Disponível para oportunidade" />
+<img src="https://img.shields.io/badge/Disponível%20para%20oportunidade-Júnior%20%7C%20Estágio-0f766e?style=for-the-badge" alt="Disponível para oportunidade" />
 </p>
 
 <p align="center">
@@ -23,38 +23,34 @@
 
 ## Projetos em produção
 
-Estou em busca da minha primeira oportunidade profissional em desenvolvimento e venho construindo projetos completos, com deploy em produção, código público e foco em boas práticas.
-
----
-
 **[HelpFlow](https://helpflow.vercel.app/login)** — Sistema de help desk full stack
-Plataforma robusta para gerenciamento de chamados com arquitetura full stack. Inclui autenticação, controle de acesso por papéis (RBAC), gestão de tickets por status e prioridade, persistência em banco relacional e cobertura de testes E2E.
-`Next.js · TypeScript · Prisma · Supabase · NextAuth · Cypress` · [ver código](https://github.com/tharciosantos/helpflow)
+Plataforma para gerenciamento de chamados com autenticação NextAuth, controle de acesso por papéis (CLIENT/AGENT), CRUD de tickets com validação Zod, rate limiting, testes Vitest e Cypress E2E.
+`Next.js · JavaScript · Prisma · Supabase · PostgreSQL · NextAuth · Zod · Cypress · Vitest` · [ver código](https://github.com/tharciosantos/helpflow)
 
 ---
 
-**[DevLinks](https://frontend-api-weld.vercel.app/)** — Plataforma de links personalizados
-Aplicação com frontend separado da API, autenticação, gerenciamento de links, upload de imagens via Cloudinary, sincronização com React Query e testes E2E com Cypress.
-`React · Node.js · React Query · Cloudinary · Cypress` · [web](https://github.com/tharciosantos/devlinks-web) · [api](https://github.com/tharciosantos/devlinks-api)
+**[DevLinks](https://devlinks-web-api.vercel.app/)** — Plataforma de links personalizados
+Aplicação com frontend e API separados, autenticação JWT, upload de imagens via Cloudinary, sincronização com React Query e pipeline E2E com Cypress e GitHub Actions.
+`React · Vite · Express · MongoDB · React Query · Cloudinary · Cypress · GitHub Actions` · [web](https://github.com/tharciosantos/devlinks-web) · [api](https://github.com/tharciosantos/devlinks-api)
 
 ---
 
 **[Lista de Mercado](https://lista-mercado-sage.vercel.app/)** — PWA offline-first
-Aplicação instalável para organização de compras, com funcionamento sem internet, persistência local e compartilhamento via WhatsApp.
-`React · Vite · TypeScript · PWA` · [ver código](https://github.com/tharciosantos/lista-mercado)
+Aplicação instalável para organização de compras, com funcionamento sem internet, persistência no localStorage e compartilhamento via WhatsApp.
+`React · Vite · Tailwind CSS · PWA` · [ver código](https://github.com/tharciosantos/lista-mercado)
 
 ---
 
-**[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)** — Dashboard com SSR
-Dashboard responsivo com dados atualizados de criptomoedas via CoinGecko API, utilizando Server-Side Rendering com Next.js.
-`Next.js · TypeScript · CoinGecko API` · [ver código](https://github.com/tharciosantos/crypto-dashboard)
+**[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)** — Dashboard de criptomoedas
+Dashboard responsivo com dados da CoinGecko API, rotas dinâmicas, busca client-side e estados de carregamento e erro.
+`Next.js · React · CoinGecko API` · [ver código](https://github.com/tharciosantos/crypto-dashboard)
 
 ---
 
 ## Projeto em desenvolvimento
 
 **[ManutFlow](https://github.com/tharciosantos/manutflow)** — Sistema de manutenção e ordens de serviço
-Aplicação full stack em desenvolvimento para controle de equipamentos e ordens de manutenção. Inclui cadastro de equipamentos, criação de ordens de serviço, alteração de status, filtros, busca textual, dashboard com indicadores reais e integração com Supabase/PostgreSQL.
+Aplicação full stack para controle de equipamentos e ordens de manutenção, com dashboard, métricas, filtros, busca textual e integração com Supabase.
 `Next.js · TypeScript · Tailwind CSS · Supabase · PostgreSQL` · [ver código](https://github.com/tharciosantos/manutflow)
 
 ---
@@ -63,8 +59,16 @@ Aplicação full stack em desenvolvimento para controle de equipamentos e ordens
 
 * **Frontend:** interfaces responsivas com React e Next.js, atenção à experiência do usuário e organização de componentes
 * **Backend:** rotas, autenticação, CRUD, integração com banco de dados e consumo de APIs externas
-* **Qualidade:** código tipado com TypeScript, testes com Vitest e Cypress, linting e integração contínua
+* **Qualidade:** testes com Vitest e Cypress, linting, pipelines com GitHub Actions e boas práticas de código
 * **Postura:** organização, documentação, comunicação clara e evolução constante com base em feedback
+
+---
+
+## Atualmente estudando
+
+* Boas práticas de arquitetura e padrões de projeto
+* Containerização com Docker
+* Pipelines de CI/CD com GitHub Actions
 
 ---
 
@@ -78,14 +82,15 @@ Antes de migrar para desenvolvimento, trabalhei em funções operacionais e admi
 
 ## Stack
 
-* **Frontend:** React, Next.js, Tailwind CSS
-* **Backend & Dados:** Node.js, TypeScript, Prisma, Supabase, PostgreSQL
-* **Testes & Ferramentas:** Cypress, Vitest, Testing Library, Git, GitHub Actions, Vercel
+* **Frontend:** React, Next.js, Vite, Tailwind CSS
+* **Backend & Dados:** Node.js, Express, JavaScript, TypeScript, Prisma, Supabase, PostgreSQL, MongoDB
+* **Testes & Ferramentas:** Cypress, Vitest, GitHub Actions, Vercel
 
 ---
 
 <p align="center">
   <strong>Aberto a oportunidades como Desenvolvedor Full Stack Júnior ou Estagiário em Desenvolvimento.</strong><br/><br/>
   <a href="https://linkedin.com/in/tharcio-santos-dev">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:tharciosantos09@gmail.com">tharciosantos09@gmail.com</a>
+  <a href="mailto:tharciosantos09@gmail.com">tharciosantos09@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://tharcio-portfolio.vercel.app">Portfólio</a>
 </p>
