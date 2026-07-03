@@ -21,46 +21,41 @@
 
 ---
 
-## Projetos em produção
+## Projetos em destaque
 
 **[HelpFlow](https://helpflow.vercel.app/login)** — Sistema de help desk full stack
-Plataforma para gerenciamento de chamados com autenticação NextAuth, controle de acesso por papéis (CLIENT/AGENT), CRUD de tickets com validação Zod, rate limiting, testes Vitest e Cypress E2E.
+
+<img src="https://raw.githubusercontent.com/tharciosantos/meu-portfolio/main/public/images/helpflow-screenshot.png" alt="Tela do HelpFlow" width="600" />
+
+Plataforma para gerenciamento de chamados com autenticação NextAuth, controle de acesso por papéis (CLIENT/AGENT), CRUD de tickets com validação Zod, rate limiter em memória e senhas com hash via bcryptjs. Testes com Vitest e Cypress E2E.
 `Next.js · JavaScript · Prisma · Supabase · PostgreSQL · NextAuth · Zod · Cypress · Vitest` · [ver código](https://github.com/tharciosantos/helpflow)
 
 ---
 
 **[DevLinks](https://devlinks-web-api.vercel.app/)** — Plataforma de links personalizados
-Aplicação com frontend e API separados, autenticação JWT, upload de imagens via Cloudinary, sincronização com React Query e pipeline E2E com Cypress e GitHub Actions.
+
+<img src="https://raw.githubusercontent.com/tharciosantos/meu-portfolio/main/public/images/screenshot-devlinks.png" alt="Tela do DevLinks" width="600" />
+
+Frontend e API separados, autenticação via JWT, upload de avatar com Cloudinary, estado assíncrono sincronizado com TanStack Query e pipeline de testes E2E com Cypress integrado a lint/testes via GitHub Actions.
 `React · Vite · Express · MongoDB · React Query · Cloudinary · Cypress · GitHub Actions` · [web](https://github.com/tharciosantos/devlinks-web) · [api](https://github.com/tharciosantos/devlinks-api)
 
 ---
 
-**[Lista de Mercado](https://lista-mercado-sage.vercel.app/)** — PWA offline-first
-Aplicação instalável para organização de compras, com funcionamento sem internet, persistência no localStorage e compartilhamento via WhatsApp.
-`React · Vite · Tailwind CSS · PWA` · [ver código](https://github.com/tharciosantos/lista-mercado)
+**Outros projetos:** [Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/) (Next.js · CoinGecko API) · [Lista de Mercado](https://lista-mercado-sage.vercel.app/) (PWA offline-first) · [ManutFlow](https://github.com/tharciosantos/manutflow) (em desenvolvimento — Supabase/PostgreSQL)
+Descrições completas e links de código de todos eles estão no [portfólio](https://tharcio-portfolio.vercel.app).
 
 ---
 
-**[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)** — Dashboard de criptomoedas
-Dashboard responsivo com dados da CoinGecko API, rotas dinâmicas, busca client-side e estados de carregamento e erro.
-`Next.js · React · CoinGecko API` · [ver código](https://github.com/tharciosantos/crypto-dashboard)
+## O que eu trago pro time
 
----
+Gosto de entender como um problema funciona na prática antes de sair escrevendo código — foi um hábito que trouxe das minhas funções anteriores e apliquei direto no HelpFlow: antes de montar o CRUD de tickets, mapeei o fluxo real de abertura e resolução de chamado.
 
-## Projeto em desenvolvimento
+No dia a dia, isso se traduz em:
 
-**[ManutFlow](https://github.com/tharciosantos/manutflow)** — Sistema de manutenção e ordens de serviço
-Aplicação full stack para controle de equipamentos e ordens de manutenção, com dashboard, métricas, filtros, busca textual e integração com Supabase.
-`Next.js · TypeScript · Tailwind CSS · Supabase · PostgreSQL` · [ver código](https://github.com/tharciosantos/manutflow)
-
----
-
-## O que posso contribuir
-
-* **Frontend:** interfaces responsivas com React e Next.js, atenção à experiência do usuário e organização de componentes
-* **Backend:** rotas, autenticação, CRUD, integração com banco de dados e consumo de APIs externas
-* **Qualidade:** testes com Vitest e Cypress, linting, pipelines com GitHub Actions e boas práticas de código
-* **Postura:** organização, documentação, comunicação clara e evolução constante com base em feedback
+* **Frontend** — interfaces em React/Next.js pensadas para quem vai usar, não só para "ficar bonito"
+* **Backend** — rotas, autenticação e integração com banco de dados, com atenção a casos de borda (ex: token de reset de senha expirado, tentativas de login repetidas)
+* **Qualidade** — testes automatizados (Vitest, Cypress) e pipelines de CI, porque prefiro descobrir um bug no GitHub Actions do que em produção
+* **Comunicação** — documento decisões técnicas nos READMEs dos projetos para que qualquer pessoa entenda o "porquê", não só o "o quê"
 
 ---
 
@@ -89,7 +84,8 @@ Antes de migrar para desenvolvimento, trabalhei em funções operacionais e admi
 ---
 
 <p align="center">
-  <strong>Aberto a oportunidades como Desenvolvedor Full Stack Júnior ou Estagiário em Desenvolvimento.</strong><br/><br/>
+  <strong>Aberto a oportunidades como Desenvolvedor Full Stack Júnior ou Estagiário em Desenvolvimento.</strong><br/>
+  Costumo responder mensagens no LinkedIn em até 24h — fico à disposição para um bate-papo técnico.<br/><br/>
   <a href="https://linkedin.com/in/tharcio-santos-dev">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:tharciosantos09@gmail.com">tharciosantos09@gmail.com</a> &nbsp;·&nbsp;
   <a href="https://tharcio-portfolio.vercel.app">Portfólio</a>
