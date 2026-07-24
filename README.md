@@ -74,22 +74,6 @@ Projeto com frontend e API separados, no qual implementei autenticação JWT, up
 
 </div>
 
----
-
-## 📊 Atividade no GitHub
-
-<div align="center">
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharciosantos&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" />
-
-  <br/>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharciosantos&theme=github-compact&hide_border=true&area=true" alt="Gráfico de contribuições" />
-
-</div>
-
----
-
 ## 📚 Atualmente estudando
 
 - Arquitetura de software e padrões de projeto
