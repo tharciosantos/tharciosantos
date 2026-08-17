@@ -1,91 +1,109 @@
 <div align="center">
 
   <h1>Olá, eu sou Tharcio Santos</h1>
-
-  <h3>Desenvolvedor Full Stack · Aplicações Web, APIs e Bancos de Dados</h3>
-
+  <p><strong>Desenvolvedor Full Stack · TypeScript · React · Next.js · Node.js · PostgreSQL</strong></p>
   <p>
-    Desenvolvo sistemas completos com autenticação, testes automatizados e controle de acesso.<br/>
-    Cursando Análise e Desenvolvimento de Sistemas e buscando uma oportunidade como estagiário ou desenvolvedor júnior.
+    Desenvolvo aplicações web completas conectando interfaces modernas, APIs e bancos de dados relacionais.<br/>
+    Foco em código limpo, boas práticas, segurança no controle de acesso e testes automatizados.
   </p>
 
-  <a href="https://www.linkedin.com/in/tharcio-santos-dev/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:tharciosantos09@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
-  <a href="https://tharcio-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+  <p>
+    <a href="https://tharcio-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+    <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:tharciosantos09@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
+  </p>
 
 </div>
 
 ---
 
-## Projetos em destaque
+##  Tecnologias e Ferramentas
 
-### [HelpFlow](https://github.com/tharciosantos/helpflow) — Sistema de help desk
+<div align="center">
 
-Aplicação full-stack para gerenciamento de chamados internos, com autenticação por credenciais e GitHub, recuperação de senha e controle de acesso por perfil e propriedade.
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Frontend** | React, Next.js (App Router), TypeScript, JavaScript, Tailwind CSS |
+| **Backend & APIs** | Node.js, Express, Next.js API Routes, NextAuth.js, Zod |
+| **Bancos de Dados & ORM** | PostgreSQL, Supabase (SSR & Storage), Prisma ORM, MongoDB |
+| **Testes & Qualidade** | Vitest, React Testing Library, Cypress, ESLint, Prettier |
+| **Ferramentas & Deploy** | Git, GitHub, GitHub Actions, Vercel |
 
-- **Destaques:** CRUD paginado, validação com Zod, rate limiting e testes unitários e E2E.
-- **Desafio técnico:** garantir que cada usuário acesse e gerencie somente os chamados permitidos.
+<br/>
 
-`Next.js` · `JavaScript` · `Prisma` · `Supabase` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,prisma,postgres,supabase,mongodb,vitest,cypress,githubactions,vercel&perline=15" alt="Tecnologias" />
 
-[Ver aplicação](https://helpflow.vercel.app/login) · [Código-fonte](https://github.com/tharciosantos/helpflow)
+</div>
 
-### [ManutFlow](https://github.com/tharciosantos/manutflow) — Sistema de manutenção
+---
 
-Sistema para controle de equipamentos, ordens de serviço, prioridades, responsáveis e histórico de alterações.
+##  Projetos em Destaque
 
-- **Destaques:** 153 testes automatizados em 13 arquivos, CRUD com busca, filtros, paginação e dashboard operacional.
-- **Segurança:** autenticação com Supabase e isolamento de dados utilizando `proxy.ts`, `getUser()` e Row Level Security.
+### [ManutFlow](https://github.com/tharciosantos/manutflow) — Sistema de Gestão de Manutenção
+Aplicação full stack para controle de equipamentos industriais, abertura de ordens de serviço e acompanhamento de prazos de manutenção.
 
-`Next.js` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL`
+- **Destaques:** Landing page com simulador interativo, dashboard operacional compacto com gráficos e controle de prazos por SLA (atrasadas, vencem hoje, próximos 7 dias).
+- **Segurança:** Controle de sessão com Supabase SSR, validação de usuário autenticado nas APIs e isolamento de registros por `user_id`.
+- **Qualidade:** **161 testes automatizados em 15 arquivos** utilizando Vitest e Testing Library.
 
-[Ver aplicação](https://manutflow.vercel.app) · [Código-fonte](https://github.com/tharciosantos/manutflow)
+`Next.js 16` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
 
-### [DevLinks](https://github.com/tharciosantos/devlinks-web) — Plataforma de links personalizados
+[Ver Aplicação](https://manutflow.vercel.app) · [Código-fonte](https://github.com/tharciosantos/manutflow)
 
-Aplicação com frontend e API separados, autenticação JWT, upload de imagens, sincronização de estado assíncrono e testes E2E executados pelo GitHub Actions.
+---
+
+### [HelpFlow](https://github.com/tharciosantos/helpflow) — Sistema de Help Desk
+Sistema para abertura, gerenciamento e triagem de chamados internos com diferentes níveis de acesso.
+
+- **Destaques:** Perfis de usuário separados para **Cliente** (solicitante) e **Agente** (suporte), simulador interativo na página inicial, recuperação de senha e rate limiting.
+- **Validação & Testes:** Validação de formulários e APIs com Zod e 66 testes automatizados (unitários com Vitest e E2E com Cypress).
+
+`Next.js 15` · `JavaScript` · `Prisma` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
+
+[Ver Aplicação](https://helpflow.vercel.app) · [Código-fonte](https://github.com/tharciosantos/helpflow)
+
+---
+
+### [DevLinks](https://github.com/tharciosantos/devlinks-web) — Agregador de Links Personalizados
+Aplicação com frontend e API desacoplados para gerenciamento de perfil e links personalizados com upload de imagens.
+
+- **Destaques:** Autenticação com JWT, upload de avatar via Cloudinary, sincronização de dados assíncronos e testes E2E com Cypress.
 
 `React` · `Vite` · `Express` · `MongoDB` · `TanStack Query` · `Cloudinary` · `Cypress`
 
-[Ver aplicação](https://devlinks-web-api.vercel.app/) · [Frontend](https://github.com/tharciosantos/devlinks-web) · [API](https://github.com/tharciosantos/devlinks-api)
+[Ver Aplicação](https://devlinks-web-api.vercel.app/) · [Frontend](https://github.com/tharciosantos/devlinks-web) · [API](https://github.com/tharciosantos/devlinks-api)
 
-**Outros projetos:** [Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/) · [Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)
+<details>
+  <summary><strong> Ver outros projetos</strong></summary>
 
----
+  <br/>
 
-## Tecnologias e ferramentas
-
-<div align="center">
-
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,prisma,postgres,supabase,mongodb,vite,git,github,githubactions,cypress,vitest,vercel&perline=10" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Prisma, PostgreSQL, Supabase, MongoDB, Vite, Git, GitHub, GitHub Actions, Cypress, Vitest e Vercel" />
-
-</div>
+  - **[Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)**: Aplicação mobile para compras com funcionamento offline (Service Worker). (`React` · `Vite` · `PWA` · `Tailwind CSS`) · [Repositório](https://github.com/tharciosantos/lista-mercado)
+  - **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)**: Painel de cotações consumindo API externa com tratamento de loading e erros. (`Next.js` · `React`) · [Repositório](https://github.com/tharciosantos/crypto-dashboard)
+</details>
 
 ---
 
-## Sobre mim
+##  Sobre Mim
 
-- Curso Análise e Desenvolvimento de Sistemas, com conclusão prevista para julho de 2027.
-- Desenvolvo aplicações com React, Next.js, Node.js, TypeScript, APIs e bancos de dados.
-- Pratico testes automatizados, integração contínua e documentação técnica.
-- Atuo de forma autônoma com suporte de TI, desenvolvendo experiência em diagnóstico, resolução de problemas e atendimento ao usuário.
-- Valorizo código organizado e procuro compreender as razões por trás de cada decisão técnica.
-- Moro em Caeté, Minas Gerais.
+-  Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
+-  Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
+-  Pratico testes automatizados e integração contínua (CI) para garantir a qualidade do código.
+-  Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
 
 ### Atualmente estudando
-
-- Arquitetura de software e padrões de projeto
-- Testes de interface e automação
-- Docker e práticas de CI/CD
+- Estruturas de dados e boas práticas de código limpo
+- Testes de integração e cobertura de código
+- Docker e fundamentos de conteinerização
 
 ---
 
 <div align="center">
 
-  <strong>Disponível para oportunidades de estágio e desenvolvimento júnior.</strong>
+  <p><strong>Buscando minha primeira oportunidade como Estagiário ou Desenvolvedor Júnior.</strong></p>
 
-  <br/><br/>
-
-  <a href="https://www.linkedin.com/in/tharcio-santos-dev/"><img src="https://img.shields.io/badge/Vamos_conversar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conversar pelo LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vamos_conversar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conversar pelo LinkedIn" />
+  </a>
 
 </div>
