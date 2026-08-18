@@ -17,7 +17,7 @@
 
 ---
 
-##  Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Ferramentas
 
 <div align="center">
 
@@ -37,7 +37,7 @@
 
 ---
 
-##  Projetos em Destaque
+## 🚀 Projetos em Destaque
 
 ### [ManutFlow](https://github.com/tharciosantos/manutflow) — Sistema de Gestão de Manutenção
 Aplicação full stack para controle de equipamentos industriais, abertura de ordens de serviço e acompanhamento de prazos de manutenção.
@@ -74,7 +74,7 @@ Aplicação com frontend e API desacoplados para gerenciamento de perfil e links
 [Ver Aplicação](https://devlinks-web-api.vercel.app/) · [Frontend](https://github.com/tharciosantos/devlinks-web) · [API](https://github.com/tharciosantos/devlinks-api)
 
 <details>
-  <summary><strong> Ver outros projetos</strong></summary>
+  <summary><strong>📂 Ver outros projetos</strong></summary>
 
   <br/>
 
@@ -84,17 +84,17 @@ Aplicação com frontend e API desacoplados para gerenciamento de perfil e links
 
 ---
 
-##  Sobre Mim
+## 💬 Sobre Mim
 
--  Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
--  Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
--  Pratico testes automatizados e integração contínua (CI) para garantir a qualidade do código.
--  Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
+- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
+- 🛠️ Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
+- 🧪 Pratico testes automatizados e integração contínua (CI) para garantir a qualidade do código.
+- 📍 Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
 
-### Atualmente estudando
-- Estruturas de dados e boas práticas de código limpo
-- Testes de integração e cobertura de código
-- Docker e fundamentos de conteinerização
+### 🔭 Atualmente estudando
+- ☕ **Java & Ecossistema JVM:** Programação Orientada a Objetos clássica, estruturas de dados, gerenciamento de memória e introdução ao Spring Boot.
+- 📐 **Arquitetura & Qualidade de Software:** Princípios SOLID, Design Patterns e Clean Code.
+- 🐳 **DevOps & Infraestrutura:** Docker e fundamentos de conteinerização.
 
 ---
 
