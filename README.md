@@ -21,13 +21,13 @@
 
 <div align="center">
 
-| Categoria | Tecnologias |
-| :--- | :--- |
-| **Frontend** | React, Next.js (App Router), TypeScript, JavaScript, Tailwind CSS |
-| **Backend & APIs** | Node.js, Express, Next.js API Routes, NextAuth.js, Zod |
-| **Bancos de Dados & ORM** | PostgreSQL, Supabase (SSR & Storage), Prisma ORM, MongoDB |
-| **Testes & Qualidade** | Vitest, React Testing Library, Cypress, ESLint, Prettier |
-| **Ferramentas & Deploy** | Git, GitHub, GitHub Actions, Vercel |
+| Categoria                 | Tecnologias                                                       |
+| :------------------------ | :---------------------------------------------------------------- |
+| **Frontend**              | React, Next.js (App Router), TypeScript, JavaScript, Tailwind CSS |
+| **Backend & APIs**        | Node.js, Express, Next.js API Routes, NextAuth.js, Zod            |
+| **Bancos de Dados & ORM** | PostgreSQL, Supabase (SSR & Storage), Prisma ORM, MongoDB         |
+| **Testes & Qualidade**    | Vitest, React Testing Library, Cypress, ESLint, Prettier          |
+| **Ferramentas & Deploy**  | Git, GitHub, GitHub Actions, Vercel                               |
 
 <br/>
 
@@ -40,11 +40,12 @@
 ## 🚀 Projetos em Destaque
 
 ### [ManutFlow](https://github.com/tharciosantos/manutflow) — Sistema de Gestão de Manutenção
+
 Aplicação full stack para controle de equipamentos industriais, abertura de ordens de serviço e acompanhamento de prazos de manutenção.
 
-- **Destaques:** Landing page com simulador interativo, dashboard operacional compacto com gráficos e controle de prazos por SLA (atrasadas, vencem hoje, próximos 7 dias).
-- **Segurança:** Controle de sessão com Supabase SSR, validação de usuário autenticado nas APIs e isolamento de registros por `user_id`.
-- **Qualidade:** **161 testes automatizados em 15 arquivos** utilizando Vitest e Testing Library.
+* **Destaques:** Landing page com simulador interativo, dashboard operacional compacto com gráficos e controle de prazos por SLA (atrasadas, vencem hoje, próximos 7 dias).
+* **Segurança:** Controle de sessão com Supabase SSR, validação de usuário autenticado nas APIs e isolamento de registros por `user_id`.
+* **Qualidade:** **161 testes automatizados em 15 arquivos** utilizando Vitest e Testing Library.
 
 `Next.js 16` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
 
@@ -53,10 +54,11 @@ Aplicação full stack para controle de equipamentos industriais, abertura de or
 ---
 
 ### [HelpFlow](https://github.com/tharciosantos/helpflow) — Sistema de Help Desk
+
 Sistema para abertura, gerenciamento e triagem de chamados internos com diferentes níveis de acesso.
 
-- **Destaques:** Perfis de usuário separados para **Cliente** (solicitante) e **Agente** (suporte), simulador interativo na página inicial, recuperação de senha e rate limiting.
-- **Validação & Testes:** Validação de formulários e APIs com Zod e 66 testes automatizados (unitários com Vitest e E2E com Cypress).
+* **Destaques:** Perfis de usuário separados para **Cliente** (solicitante) e **Agente** (suporte), simulador interativo na página inicial, recuperação de senha e rate limiting.
+* **Validação & Testes:** Validação de formulários e APIs com Zod e 66 testes automatizados (unitários com Vitest e E2E com Cypress).
 
 `Next.js 15` · `JavaScript` · `Prisma` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
 
@@ -65,9 +67,10 @@ Sistema para abertura, gerenciamento e triagem de chamados internos com diferent
 ---
 
 ### [DevLinks](https://github.com/tharciosantos/devlinks-web) — Agregador de Links Personalizados
+
 Aplicação com frontend e API desacoplados para gerenciamento de perfil e links personalizados com upload de imagens.
 
-- **Destaques:** Autenticação com JWT, upload de avatar via Cloudinary, sincronização de dados assíncronos e testes E2E com Cypress.
+* **Destaques:** Autenticação com JWT, upload de avatar via Cloudinary, sincronização de dados assíncronos e testes E2E com Cypress.
 
 `React` · `Vite` · `Express` · `MongoDB` · `TanStack Query` · `Cloudinary` · `Cypress`
 
@@ -78,23 +81,25 @@ Aplicação com frontend e API desacoplados para gerenciamento de perfil e links
 
   <br/>
 
-  - **[Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)**: Aplicação mobile para compras com funcionamento offline (Service Worker). (`React` · `Vite` · `PWA` · `Tailwind CSS`) · [Repositório](https://github.com/tharciosantos/lista-mercado)
-  - **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)**: Painel de cotações consumindo API externa com tratamento de loading e erros. (`Next.js` · `React`) · [Repositório](https://github.com/tharciosantos/crypto-dashboard)
+* **[Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)**: Aplicação mobile para compras com funcionamento offline (Service Worker). (`React` · `Vite` · `PWA` · `Tailwind CSS`) · [Repositório](https://github.com/tharciosantos/lista-mercado)
+* **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)**: Painel de cotações consumindo API externa com tratamento de loading e erros. (`Next.js` · `React`) · [Repositório](https://github.com/tharciosantos/crypto-dashboard)
+
 </details>
 
 ---
 
 ## 💬 Sobre Mim
 
-- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
-- 🛠️ Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
-- 🧪 Pratico testes automatizados e integração contínua (CI) para garantir a qualidade do código.
-- 📍 Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
+* 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
+* 🛠️ Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
+* 🧪 Pratico testes automatizados e integração contínua (CI) para garantir a qualidade do código.
+* 📍 Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
 
-### 🔭 Atualmente estudando
-- ☕ **Java & Ecossistema JVM:** Programação Orientada a Objetos clássica, estruturas de dados, gerenciamento de memória e introdução ao Spring Boot.
-- 📐 **Arquitetura & Qualidade de Software:** Princípios SOLID, Design Patterns e Clean Code.
-- 🐳 **DevOps & Infraestrutura:** Docker e fundamentos de conteinerização.
+### 📚 Atualmente estudando
+
+* ☕ **Java & Ecossistema JVM:** Programação Orientada a Objetos clássica, estruturas de dados, gerenciamento de memória e introdução ao Spring Boot.
+* 📐 **Arquitetura & Qualidade de Software:** Princípios SOLID, Design Patterns e Clean Code.
+* 🐳 **DevOps & Infraestrutura:** Docker e fundamentos de conteinerização.
 
 ---
 
