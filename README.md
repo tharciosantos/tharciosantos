@@ -1,109 +1,102 @@
 <div align="center">
-
   <h1>Olá, eu sou Tharcio Santos 👋</h1>
   <p><strong>Desenvolvedor Full Stack · TypeScript · React · Next.js · Node.js · PostgreSQL</strong></p>
   <p>
-    Desenvolvo aplicações web completas conectando interfaces modernas, APIs resilientes e bancos relacionais.<br/>
-    Foco em código limpo, arquitetura escalável, segurança no controle de acesso e testes automatizados.
+    Construo aplicações web completas: interface, API, banco e autenticação.<br/>
+    Priorizo código limpo, segurança no controle de acesso e testes automatizados desde o início.
   </p>
-
   <p>
-    <a href="https://tharcio-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio" /></a>
-    <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:tharciosantos09@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
+    <a href="https://tharcio-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+    <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://tharcio-portfolio.vercel.app/curriculo-tharcio-santos.pdf" target="_blank"><img src="https://img.shields.io/badge/Currículo_PDF-4B5563?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Currículo" /></a>
+    <a href="mailto:tharciosantos09@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
   </p>
-
+  <p><em>Buscando oportunidade como Estagiário ou Desenvolvedor Júnior · Caeté / Belo Horizonte e Região (MG) · Presencial, híbrido ou remoto</em></p>
 </div>
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 <div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,prisma,postgres,supabase,mongodb,vitest,cypress,githubactions,vercel&perline=8" alt="Tecnologias" />
+</div>
+
+<br/>
 
 | Categoria | Tecnologias |
 | :--- | :--- |
 | **Frontend** | React, Next.js (App Router), TypeScript, JavaScript, Tailwind CSS |
 | **Backend & APIs** | Node.js, Express, Next.js API Routes, NextAuth.js, Zod |
-| **Bancos de Dados & ORM** | PostgreSQL, Supabase (SSR & Storage), Prisma ORM, MongoDB |
+| **Bancos & ORM** | PostgreSQL, Supabase (SSR, Storage, RLS), Prisma, MongoDB |
 | **Testes & Qualidade** | Vitest, React Testing Library, Cypress, ESLint, Prettier |
 | **Ferramentas & Deploy** | Git, GitHub, GitHub Actions, Vercel |
 
-<br/>
+---
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,prisma,postgres,supabase,mongodb,vitest,cypress,githubactions,vercel&perline=15" alt="Tecnologias" />
+## Projetos em Destaque
 
-</div>
+### [ManutFlow](https://github.com/tharciosantos/manutflow) — Gestão de Manutenção
+Aplicação full stack para controle de equipamentos industriais, ordens de serviço e prazos de manutenção.
+
+- Landing com simulador interativo, dashboard com SLA e acesso demo em 1-clique
+- Sessão com Supabase SSR, validação nas APIs e isolamento de dados por `user_id` (RLS)
+- **163 testes automatizados** cobrindo regras de negócio e componentes (Vitest + Testing Library)
+
+`Next.js` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
+
+[Ver aplicação](https://manutflow.vercel.app) · [Código](https://github.com/tharciosantos/manutflow)
 
 ---
 
-## 🚀 Projetos em Destaque
+### [HelpFlow](https://github.com/tharciosantos/helpflow) — Service Desk Multi-Empresa
+Help desk corporativo com arquitetura **multi-tenant** e isolamento entre organizações.
 
-### [ManutFlow](https://github.com/tharciosantos/manutflow) — Sistema de Gestão de Manutenção
-Aplicação full stack para controle de equipamentos industriais, abertura de ordens de serviço e acompanhamento de prazos de manutenção.
+- Convite por código, perfis de Agente e Cliente (RBAC), rate limiting e login demo em 1-clique
+- Validação com Zod, testes unitários (Vitest) e testes end-to-end com Cypress
 
-- **Destaques:** Landing page com simulador interativo, dashboard operacional compacto com gráficos e controle de prazos por SLA (atrasadas, vencem hoje, próximos 7 dias).
-- **Segurança:** Controle de sessão com Supabase SSR, validação de usuário autenticado nas APIs e isolamento de registros por `user_id`.
-- **Qualidade:** **161 testes automatizados em 15 arquivos** utilizando Vitest e Testing Library.
+`Next.js` · `JavaScript` · `Prisma` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
 
-`Next.js 16` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
-
-[Ver Aplicação](https://manutflow.vercel.app) · [Código-fonte](https://github.com/tharciosantos/manutflow)
+[Ver aplicação](https://helpflow.vercel.app) · [Código](https://github.com/tharciosantos/helpflow)
 
 ---
 
-### [HelpFlow](https://github.com/tharciosantos/helpflow) — Service Desk Corporativo Multi-Empresa
-Sistema de help desk e gestão de chamados corporativos com arquitetura **Multi-Tenant** e isolamento total entre organizações.
+### [DevLinks](https://github.com/tharciosantos/devlinks-web) — Agregador de Links
+Frontend e API desacoplados para perfil público de links e upload de imagens.
 
-- **Destaques:** Suporte a múltiplas empresas com código amigável de convite, perfis segmentados de **Agente** (TI/Gestão) e **Cliente** (colaborador), simulador interativo na landing page, rate limiting distribuído e recuperação de senhas.
-- **Validação & Testes:** Validação estrita de schemas com Zod, suíte de testes unitários com Vitest e testes E2E com Cypress.
-
-`Next.js 15` · `JavaScript` · `Prisma` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
-
-[Ver Aplicação](https://helpflow.vercel.app) · [Código-fonte](https://github.com/tharciosantos/helpflow)
-
----
-
-### [DevLinks](https://github.com/tharciosantos/devlinks-web) — Agregador de Links Personalizados
-Aplicação com frontend e API desacoplados para gerenciamento de perfil e links personalizados com upload de imagens.
-
-- **Destaques:** Autenticação com JWT, upload de avatar via Cloudinary, sincronização de dados assíncronos e testes E2E com Cypress.
+- Autenticação JWT, upload de avatar via Cloudinary, cache com TanStack Query e testes E2E com Cypress
 
 `React` · `Vite` · `Express` · `MongoDB` · `TanStack Query` · `Cloudinary` · `Cypress`
 
-[Ver Aplicação](https://devlinks-web-api.vercel.app/) · [Frontend](https://github.com/tharciosantos/devlinks-web) · [API](https://github.com/tharciosantos/devlinks-api)
+[Ver aplicação](https://devlinks-web-api.vercel.app/) · [Frontend](https://github.com/tharciosantos/devlinks-web) · [API](https://github.com/tharciosantos/devlinks-api)
 
 <details>
-  <summary><strong>📂 Ver outros projetos</strong></summary>
-
+  <summary><strong>Outros projetos</strong></summary>
   <br/>
 
-  - **[Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)**: Aplicação mobile para compras com funcionamento offline (Service Worker). (`React` · `Vite` · `PWA` · `Tailwind CSS`) · [Repositório](https://github.com/tharciosantos/lista-mercado)
-  - **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)**: Painel de cotações consumindo API externa com tratamento de loading e erros. (`Next.js` · `React`) · [Repositório](https://github.com/tharciosantos/crypto-dashboard)
+  - **[Lista de Mercado PWA](https://lista-mercado-sage.vercel.app/)** — lista de compras com funcionamento 100% offline (Service Worker) e base de 220 itens. `React` · `Vite` · `PWA` · `Tailwind` · [Repositório](https://github.com/tharciosantos/lista-mercado)
+  - **[Crypto Dashboard](https://crypto-dashboard-five-sandy.vercel.app/)** — monitoramento de cotações em tempo real via CoinGecko API e rotas dinâmicas. `Next.js` · `React` · `Tailwind` · [Repositório](https://github.com/tharciosantos/crypto-dashboard)
 </details>
 
 ---
 
-## 💬 Sobre Mim
+## Sobre mim
 
-- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (Previsão de formatura: Julho/2027).
-- 🛠️ Experiência prática em suporte e manutenção de TI de forma autônoma (diagnóstico de hardware, redes e atendimento ao usuário).
-- 🧪 Foco constante em testes automatizados e integração contínua (CI) para garantir confiabilidade e manutenibilidade.
-- 📍 Caeté, Minas Gerais (Disponível para oportunidades **Presenciais**, **Híbridas** ou **Remotas**).
+- Cursando **Análise e Desenvolvimento de Sistemas** (Anhanguera · previsão: julho/2027)
+- Experiência prática autônoma em suporte e manutenção de TI (diagnóstico, hardware e atendimento)
+- Foco em código limpo, cobertura de testes e facilidade de manutenção
+- Caeté / Região Metropolitana de Belo Horizonte (MG) — disponível para **presencial, híbrido ou remoto**
 
-### 🔭 Atualmente estudando
-- ☕ **Java & Ecossistema JVM:** Programação Orientada a Objetos clássica, estruturas de dados, gerenciamento de memória e introdução ao Spring Boot.
-- 📐 **Arquitetura & Qualidade de Software:** Princípios SOLID, Design Patterns e Clean Code.
-- 🐳 **DevOps & Infraestrutura:** Docker e fundamentos de conteinerização.
+### Atualmente estudando
+- **Java e JVM** — POO, estruturas de dados e ecossistema Spring Boot
+- **Arquitetura** — SOLID, Design Patterns e Clean Code
+- **DevOps** — Docker e fundamentos de conteinerização
 
 ---
 
 <div align="center">
-
-  <p><strong>Buscando minha primeira oportunidade como Estagiário ou Desenvolvedor Júnior.</strong></p>
-
+  <p><strong>Aberto a conversar sobre estágio ou vaga júnior.</strong></p>
   <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank">
-    <img src="https://img.shields.io/badge/Vamos_conversar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conversar pelo LinkedIn" />
+    <img src="https://img.shields.io/badge/Vamos_conversar_no_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-
 </div>
