@@ -2,8 +2,8 @@
   <h1>Olá, eu sou Tharcio Santos 👋</h1>
   <p><strong>Desenvolvedor Full Stack · TypeScript · React · Next.js · Node.js · PostgreSQL</strong></p>
   <p>
-    Construo aplicações web completas: interface, API, banco e autenticação.<br/>
-    Priorizo código limpo, segurança no controle de acesso e testes automatizados desde o início.
+    Comecei resolvendo problema de hardware e suporte de TI, e virei dev por gostar de construir sistemas que as pessoas realmente usam.<br/>
+    Construo aplicações web completas: interface, API, banco e autenticação — priorizando código limpo, segurança no controle de acesso e testes automatizados desde o início.
   </p>
   <p>
     <a href="https://tharcio-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
@@ -32,6 +32,9 @@
 | **Testes & Qualidade** | Vitest, React Testing Library, Cypress, ESLint, Prettier |
 | **Ferramentas & Deploy** | Git, GitHub, GitHub Actions, Vercel |
 
+### Atualmente estudando
+`Java & JVM` (POO, estruturas de dados, Spring Boot) · `Arquitetura` (SOLID, Design Patterns, Clean Code) · `DevOps` (Docker, conteinerização)
+
 ---
 
 ## Projetos em Destaque
@@ -46,6 +49,8 @@ Aplicação full stack para controle de equipamentos industriais, ordens de serv
 `Next.js` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
 
 [Ver aplicação](https://manutflow.vercel.app) · [Código](https://github.com/tharciosantos/manutflow)
+
+<!-- Dica: adicione aqui um GIF curto (5-8s) mostrando login demo → dashboard. Isso costuma converter muito mais que texto. -->
 
 ---
 
@@ -80,6 +85,19 @@ Frontend e API desacoplados para perfil público de links e upload de imagens.
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+  <img src="./github-metrics.svg" alt="Estatísticas GitHub" />
+</div>
+
+<!-- Este arquivo é gerado automaticamente por um workflow do GitHub Actions (lowlighter/metrics),
+     rodando dentro do próprio repositório tharciosantos/tharciosantos.
+     Não depende de serviço externo, então não sofre com instabilidade de rate limit.
+     Veja .github/workflows/metrics.yml -->
+
+---
+
 ## Sobre mim
 
 - Cursando **Análise e Desenvolvimento de Sistemas** (Anhanguera · previsão: julho/2027)
@@ -87,15 +105,10 @@ Frontend e API desacoplados para perfil público de links e upload de imagens.
 - Foco em código limpo, cobertura de testes e facilidade de manutenção
 - Caeté / Região Metropolitana de Belo Horizonte (MG) — disponível para **presencial, híbrido ou remoto**
 
-### Atualmente estudando
-- **Java e JVM** — POO, estruturas de dados e ecossistema Spring Boot
-- **Arquitetura** — SOLID, Design Patterns e Clean Code
-- **DevOps** — Docker e fundamentos de conteinerização
-
 ---
 
 <div align="center">
-  <p><strong>Aberto a conversar sobre estágio ou vaga júnior.</strong></p>
+  <p><strong>Respondo rápido por e-mail ou LinkedIn — bora trocar uma ideia sobre estágio ou vaga júnior.</strong></p>
   <a href="https://www.linkedin.com/in/tharcio-santos-dev/" target="_blank">
     <img src="https://img.shields.io/badge/Vamos_conversar_no_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
