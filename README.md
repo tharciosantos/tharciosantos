@@ -2,8 +2,8 @@
 <h1>Olá, eu sou Tharcio Santos 👋</h1>
 <p><strong>Desenvolvedor Full Stack Júnior · TypeScript · React · Next.js · Node.js · PostgreSQL</strong></p>
 <p>
-Comecei em suporte de TI e migrei para o desenvolvimento porque queria construir sistemas que resolvem problemas reais de operação.<br/>
-Hoje entrego aplicações completas: interface, API, banco relacional e controle de acesso (RBAC/RLS), com a regra de negócio coberta por teste, não só pela tela.
+Passei por manutenção de equipamentos, rotina administrativa e suporte de TI. Em cada etapa aprendi a diagnosticar problema, documentar processo e falar com quem usa o sistema no dia a dia.<br/>
+Hoje construo aplicações completas: interface, API, banco relacional e controle de acesso (RBAC/RLS), com a regra de negócio coberta por teste, não só pela tela.
 </p>
 <p>
 <a href="https://tharcio-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
@@ -94,6 +94,7 @@ Frontend e backend em repositórios separados: perfil público de links, autenti
 ## Sobre mim
 
 - Cursando **Análise e Desenvolvimento de Sistemas** na Anhanguera (formação prevista para jul/2027)
+- Experiência anterior em manutenção de equipamentos, rotina administrativa e suporte de TI autônomo
 - Moro em Caeté, na região metropolitana de Belo Horizonte (MG)
 
 ---
