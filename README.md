@@ -28,9 +28,9 @@ Sistema full stack para equipamentos, ordens de serviço e SLAs. Sai da planilha
   <img src="https://raw.githubusercontent.com/tharciosantos/manutflow/main/public/previews/preview-dashboard.png" alt="Dashboard do ManutFlow" width="100%" />
 </p>
 
-- Isolamento de dados por `user_id` (RLS), sessão com Supabase SSR e validação de payload nas APIs
+- Isolamento de dados por `user_id` (RLS + triggers no PostgreSQL), sessão com Supabase SSR, bucket privado com proxy autenticado e validação nas APIs
 - Dashboard operacional + landing com simulador e acesso de demonstração em 1 clique
-- 169 testes automatizados em 17 suítes (Vitest + Testing Library)
+- 207 testes automatizados em 19 suítes (Vitest + Testing Library)
 
 `Next.js` · `TypeScript` · `Tailwind CSS` · `Supabase` · `PostgreSQL` · `Vitest`
 
@@ -45,8 +45,8 @@ Sistema de chamados com arquitetura multi-tenant. Cada organização fica isolad
   <img src="https://raw.githubusercontent.com/tharciosantos/helpflow/main/docs/screenshots/04-dashboard-empresa-ti.png" alt="Dashboard do HelpFlow" width="100%" />
 </p>
 
-- Convite por código, perfis Cliente e Agente (RBAC no servidor), rate limiting e login demo em 1 clique
-- Validação com Zod, 82 testes Vitest + 15 fluxos E2E no Cypress
+- Convite por código, perfis Cliente e Agente (RBAC fail-closed no servidor), revogação de sessão (`tokenVersion`), rate limiting e login demo em 1 clique
+- Validação com Zod, 169 testes unitários no Vitest (14 suítes) + 15 fluxos E2E no Cypress
 - Foi o primeiro sistema completo que montei em JavaScript. No ManutFlow a stack migrou para TypeScript strict
 
 `Next.js` · `JavaScript` · `Prisma` · `PostgreSQL` · `NextAuth` · `Vitest` · `Cypress`
@@ -62,7 +62,7 @@ Frontend e API em repositórios separados: perfil público de links, autenticaç
   <img src="https://raw.githubusercontent.com/tharciosantos/devlinks-web/main/docs/tela-dashboard.PNG" alt="Dashboard do DevLinks" width="100%" />
 </p>
 
-- API Express com JWT, ownership, MongoDB e upload no Cloudinary + testes de integração (Vitest + Supertest)
+- API Express com JWT, ownership, validação Zod, MongoDB e upload no Cloudinary + 15 testes de integração (Vitest + Supertest + MongoDB Memory Server)
 - Frontend React + Vite com cache via TanStack Query + E2E com Cypress no fluxo de login e links
 
 `React` · `Vite` · `Express` · `MongoDB` · `TanStack Query` · `Cloudinary` · `Cypress`
